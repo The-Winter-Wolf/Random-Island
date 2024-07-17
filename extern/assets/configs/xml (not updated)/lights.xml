@@ -1,0 +1,11 @@
+<Lights>	
+	<Light name ="Light 6" state ="1">
+		<Param1 type ="2" inAngle ="0.0" outAngle ="47.0"></Param1>
+		<Diffuse r ="1.0" g ="1.0" b ="1.0"></Diffuse>
+		<Specular r ="1.0" g ="1.0" b ="0.0"></Specular>
+		<Atten linear ="0.86" quad ="0.05"></Atten>
+		<Position x ="200.0" y ="425.0" z ="150.0"></Position>
+		<Direction x ="0.14" y ="-0.75" z ="0.03"></Direction>
+	</Light>
+</Lights>
+	

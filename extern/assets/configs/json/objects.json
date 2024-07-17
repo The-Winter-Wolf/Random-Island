@@ -1,0 +1,125 @@
+{
+  "Objects": [
+    {
+      "IsVisible": 0,
+      "FriendlyName": "Moon",
+      "FileName": "moon.obj",
+      "FilePath": "../../extern/assets/models/moon",
+      "HasLight_HasColor": [ 0, 1 ],
+      "Scale": [ 20.0, 20.0, 20.0 ],
+      "Position": [ 128.0, 128.0, 256.0 ],
+      "Rotation": [ 90.0, 0.0, 0.0 ],
+      "Color": [ 0.0, 1.0, 1.0, 1.0 ],
+      "IsTwoSided_IsWireframe": [ 0, 0 ]
+    },
+    {
+      "IsVisible": 1,
+      "FriendlyName": "Paladin",
+      "FileName": "Sword_And_Shield_Idle.dae",
+      "FilePath": "../../extern/assets/models/paladin",
+      "HasLight_HasColor": [ 1, 0 ],
+      "Scale": [ 0.01, 0.01, 0.01 ],
+      "Position": [ 128.0, 0.0, 128.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "IsTwoSided_IsWireframe": [ 1, 0 ]
+    },
+    {
+      "IsVisible": 1,
+      "FriendlyName": "Warrok1",
+      "FileName": "Unarmed Walk Forward.dae",
+      "FilePath": "../../extern/assets/models/warrok",
+      "HasLight_HasColor": [ 1, 0 ],
+      "Scale": [ 0.01, 0.01, 0.01 ],
+      "Position": [ 135.0, 0.0, 135.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "IsTwoSided_IsWireframe": [ 1, 0 ]
+    },
+    {
+      "IsVisible": 1,
+      "FriendlyName": "Vampire1",
+      "FileName": "Breathing Idle.dae",
+      "FilePath": "../../extern/assets/models/vampire",
+      "HasLight_HasColor": [ 1, 0 ],
+      "Scale": [ 0.01, 0.01, 0.01 ],
+      "Position": [ 125.0, 0.0, 125.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "IsTwoSided_IsWireframe": [ 1, 0 ]
+    },
+    {
+      "IsVisible": 1,
+      "FriendlyName": "Tree01",
+      "FileName": "Tree1.3ds",
+      "FilePath": "../../extern/assets/models/nature/trees/tree01",
+      "HasLight_HasColor": [ 1, 0 ],
+      "Scale": [ 0.8, 0.8, 0.8 ],
+      "Position": [ 128.0, 0.0, 128.0 ],
+      "Rotation": [ -90.0, 0.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "IsTwoSided_IsWireframe": [ 1, 0 ]
+    },
+    {
+      "IsVisible": 1,
+      "FriendlyName": "Tree02",
+      "FileName": "Tree_stump_002_Quad.obj",
+      "FilePath": "../../extern/assets/models/nature/trees/tree02",
+      "HasLight_HasColor": [ 1, 0 ],
+      "Scale": [ 10.0, 10.0, 10.0 ],
+      "Position": [ 128.0, 0.0, 128.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "IsTwoSided_IsWireframe": [ 1, 0 ]
+    },
+    {
+      "IsVisible": 1,
+      "FriendlyName": "Tree03",
+      "FileName": "Quercus glauca_FREEMODEL_std_obj.obj",
+      "FilePath": "../../extern/assets/models/nature/trees/tree03",
+      "HasLight_HasColor": [ 1, 0 ],
+      "Scale": [ 0.002, 0.002, 0.002 ],
+      "Position": [ 128.0, 0.0, 128.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "IsTwoSided_IsWireframe": [ 1, 0 ]
+    },
+    {
+      "IsVisible": 1,
+      "FriendlyName": "Grass01",
+      "FileName": "Fern_Plant_Preview_FREE_Model.fbx",
+      "FilePath": "../../extern/assets/models/nature/grass",
+      "HasLight_HasColor": [ 1, 0 ],
+      "Scale": [ 0.025, 0.025, 0.025 ],
+      "Position": [ 128.0, 0.0, 128.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "IsTwoSided_IsWireframe": [ 1, 0 ]
+    },
+    {
+      "IsVisible": 1,
+      "FriendlyName": "Ground",
+      "FileName": "Flat_1x1_xyz_n_rgba_center.ply",
+      "FilePath": "../../extern/assets/models",
+      "HasLight_HasColor": [ 0, 0 ],
+      "Scale": [ 1024.0, 1024.0, 1024.0 ],
+      "Position": [ 128.0, -4.0, 128.0 ],
+      "Rotation": [ 0.0, 90.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "IsTwoSided_IsWireframe": [ 0, 0 ]
+    },
+    {
+      "IsVisible": 1,
+      "FriendlyName": "Water",
+      "FileName": "Flat_1x1_xyz_n_rgba_corner.ply",
+      "FilePath": "../../extern/assets/models",
+      "HasLight_HasColor": [ 0, 0 ],
+      "Scale": [ 1024.0, 1024.0, 1024.0 ],
+      "Position": [ -384.0, -1.5, -384.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 0.8 ],
+      "IsTwoSided_IsWireframe": [ 0, 0 ]
+    }
+  ]
+}
+

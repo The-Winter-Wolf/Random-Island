@@ -1,0 +1,26 @@
+{
+  "Width": 1200,
+  "Height": 800,
+
+  "// comment": [
+    "Camera Mod",
+    "0 - STATIC",
+    "1 - DYNAMIC",
+    "2 - FIRST_PERSON",
+    "3 - THIED_PERSON"
+  ],
+  "CameraMod": 3,
+
+  "Position": [ 128.0, 0.0, 128.0 ],
+  "Direction": [ -0.5, -1.0, -0.5 ],
+
+  "FOVMinMax": [ 60.0, 20.0, 60.0 ],
+
+  "PitchYawSpeed": [ 0.1, 0.1 ],
+  "PitchMinMax": [ 0.0, -60.0, 60.0 ],
+  "YawMinMax": [ 0.0, -360.0, 360.0 ],
+  "DistanceMinMax": [ 2.0, 0.1, 10.0 ],
+
+  "MoveSpeed": 20.0,
+  "SpeedScale": 10.0
+}

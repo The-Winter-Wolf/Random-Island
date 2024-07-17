@@ -1,0 +1,13 @@
+# Blender 3.3.6 MTL File: 'Tree_stump_002.blend'
+# www.blender.org
+
+newmtl Tree_stump_002_Quad
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Tree_stump_002_Quad_Diffuse.png
+map_Ks Tree_stump_002_Quad_Specular.png
+map_Bump -bm 1.000000

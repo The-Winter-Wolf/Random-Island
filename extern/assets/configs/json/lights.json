@@ -1,0 +1,136 @@
+{
+  "Lights": [
+    {
+      "Type": "Point",
+      "State": "On",
+      "InAngle": 0.4,
+      "OutAngle": 47.0,
+      "LinearAtten": 0.255,
+      "QuadAtten": 0.09,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 1020.0, 80.0, 1120.0, 1.0 ],
+      "Direction": [ 0.14, -0.75, 0.03, 1.0 ]
+    },
+    {
+      "Type": "Spot",
+      "State": "Off",
+      "InAngle": -20.3,
+      "OutAngle": 90.0,
+      "LinearAtten": 0.244,
+      "QuadAtten": 0.032,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 1055.29, 110.83, 1101.71, 1.0 ],
+      "Direction": [ -0.07, -0.78, -0.31, 1.0 ]
+    },
+    {
+      "Type": "Spot",
+      "State": "Off",
+      "InAngle": -20.3,
+      "OutAngle": 90.0,
+      "LinearAtten": 0.244,
+      "QuadAtten": 0.032,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 1061.41, 110.83, 1099.88, 1.0 ],
+      "Direction": [ -0.07, -0.78, -0.31, 1.0 ]
+    },
+    {
+      "Type": "Spot",
+      "State": "Off",
+      "InAngle": -20.3,
+      "OutAngle": 90.0,
+      "LinearAtten": 0.244,
+      "QuadAtten": 0.032,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 1067.2, 110.83, 1099.58, 1.0 ],
+      "Direction": [ -0.07, -0.78, -0.31, 1.0 ]
+    },
+    {
+      "Type": "Spot",
+      "State": "Off",
+      "InAngle": -20.3,
+      "OutAngle": 90.0,
+      "LinearAtten": 0.244,
+      "QuadAtten": 0.032,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 1068.5, 110.83, 1098.79, 1.0 ],
+      "Direction": [ 0.24, -0.62, -0.1, 1.0 ]
+    },
+    {
+      "Type": "Spot",
+      "State": "Off",
+      "InAngle": -20.3,
+      "OutAngle": 90.0,
+      "LinearAtten": 0.244,
+      "QuadAtten": 0.032,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 1071.25, 110.83, 1105.16, 1.0 ],
+      "Direction": [ 0.24, -0.62, -0.1, 1.0 ]
+    },
+    {
+      "Type": "Spot",
+      "State": "Off",
+      "InAngle": -20.3,
+      "OutAngle": 90.0,
+      "LinearAtten": 0.244,
+      "QuadAtten": 0.032,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 1073.91, 110.83, 1109.86, 1.0 ],
+      "Direction": [ 0.24, -0.62, -0.1, 1.0 ]
+    },
+    {
+      "Type": "Spot",
+      "State": "Off",
+      "InAngle": -23.5,
+      "OutAngle": 26.2,
+      "LinearAtten": 0.244,
+      "QuadAtten": 0.032,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 1058.72, 104.414, 1114.73, 1.0 ],
+      "Direction": [ 0.0, -1.0, 0.0, 1.0 ]
+    },
+    {
+      "Type": "Spot",
+      "State": "Off",
+      "InAngle": -20.3,
+      "OutAngle": 90.0,
+      "LinearAtten": 0.244,
+      "QuadAtten": 0.032,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 2717.72, 57.87, 2322.33, 1.0 ],
+      "Direction": [ 0.24, -0.62, -0.1, 1.0 ]
+    },
+    {
+      "Type": "Spot",
+      "State": "Off",
+      "InAngle": -20.3,
+      "OutAngle": 40.0,
+      "LinearAtten": 0.017,
+      "QuadAtten": 0.058,
+      "Diffuse": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Specular": [ 1.0, 1.0, 0.9, 1.0 ],
+      "Position": [ 523.849, 106.845, 2413.75, 1.0 ],
+      "Direction": [ 0.0, -1.0, 0.0, 1.0 ]
+    },
+    {
+      "Type": "Direct",
+      "State": "On",
+      "InAngle": 0.0,
+      "OutAngle": 47.0,
+      "LinearAtten": 0.86,
+      "QuadAtten": 0.05,
+      "Diffuse": [ 1.0, 1.0, 1.0, 1.0 ],
+      "Specular": [ 1.0, 1.0, 1.0, 1.0 ],
+      "Position": [ -400.0, 1000.0, -400.0, 1.0 ],
+      "Direction": [ 1.0, -1.0, 0.85, 1.0 ]
+    }
+  ]
+}

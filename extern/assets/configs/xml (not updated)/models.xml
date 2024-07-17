@@ -1,0 +1,145 @@
+<Models>
+	<Model fName ="SpaceBox" isLight ="0" isVisible ="0" isWireframe ="0"  isColor ="0" flipUVs ="0">
+		<FileName name ="NoSkyrimSkybox.obj"></FileName>
+		<FilePath path ="../../extern/assets/models/space_box"></FilePath>
+		<Position x ="0.0" y ="0.0" z ="0.0"></Position>
+		<Rotation x ="90.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="20" y ="20" z ="20"></Scale>
+		<Color r ="1.0" g ="1.0" b ="1.0" a ="1.0"></Color>
+	</Model>
+	<Model fName ="SkyBox" isLight ="0" isVisible ="1" isWireframe ="0"  isColor ="0" flipUVs ="0">
+		<FileName name ="DaySkyBox.obj"></FileName>
+		<FilePath path ="../../extern/assets/models/space_box"></FilePath>
+		<Position x ="0.0" y ="0.0" z ="0.0"></Position>
+		<Rotation x ="90.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="20" y ="20" z ="20"></Scale>
+		<Color r ="1.0" g ="1.0" b ="1.0" a ="1.0"></Color>
+	</Model>
+	<Model fName ="Moon" isLight ="0" isVisible ="0" isWireframe ="0"  isColor ="1" flipUVs ="0">
+		<FileName name ="moon.obj"></FileName>
+		<FilePath path ="../../extern/assets/models/moon"></FilePath>
+		<Position x ="0.0" y ="50.0" z ="0.0"></Position>
+		<Rotation x ="0.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="5" y ="5" z ="5"></Scale>
+		<Color r ="1.0" g ="0.0" b ="0.0" a ="1.0"></Color>
+	</Model>
+	<Model fName ="Ground" isLight ="1" isVisible ="1" isWireframe ="0"  isColor ="0" flipUVs ="0">
+		<FileName name ="Ground.obj"></FileName>
+		<FilePath path ="../../extern/assets/models/ground"></FilePath>
+		<Position x ="0.0" y ="0.0" z ="0.0"></Position>
+		<Rotation x ="0.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="10.0" y ="10.0" z ="10.0"></Scale>
+		<Color r ="1.0" g ="1.0" b ="1.0" a ="1.0"></Color>
+	</Model>
+	<Model fName ="Water" isLight ="1" isVisible ="1" isWireframe ="0"  isColor ="0" flipUVs ="0">
+		<FileName name ="plane.obj"></FileName>
+		<FilePath path ="../../extern/assets/models"></FilePath>
+		<Position x ="0.0" y ="65.0" z ="0.0"></Position>
+		<Rotation x ="0.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="1000" y ="1" z ="1000"></Scale>
+		<Color r ="1.0" g ="0.0" b ="0.0" a ="0.5"></Color>
+	</Model>
+		
+	<Model fName ="Vampire1" isLight ="1" isVisible ="1" isTwoSided ="1" isWireframe ="0"  isColor ="1" flipUVs ="0">
+		<FileName name ="Rumba Dancing.dae"></FileName>
+		<FilePath path ="../../extern/assets/models/vampire"></FilePath>
+		<Position x ="-120.0" y ="85.5" z ="-230.0"></Position>
+		<Rotation x ="0.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="1" y ="1" z ="1"></Scale>
+		<Color r ="1.0" g ="1.0" b ="1.0" a ="1.0"></Color>
+		<Feature speed ="10" hp ="200" xp ="3000"></Feature>
+	</Model>
+	<Model fName ="Vampire2" isLight ="1" isVisible ="1" isTwoSided ="1" isWireframe ="0"  isColor ="1" flipUVs ="0">
+		<FileName name ="Rumba Dancing.dae"></FileName>
+		<FilePath path ="../../extern/assets/models/vampire"></FilePath>
+		<Position x ="-120.0" y ="85.5" z ="-205.0"></Position>
+		<Rotation x ="0.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="1" y ="1" z ="1"></Scale>
+		<Color r ="1.0" g ="1.0" b ="1.0" a ="1.0"></Color>
+		<Feature speed ="12" hp ="100" xp ="500"></Feature>
+	</Model>
+	<Model fName ="Vampire3" isLight ="1" isVisible ="1" isTwoSided ="1" isWireframe ="0"  isColor ="1" flipUVs ="0">
+		<FileName name ="Rumba Dancing.dae"></FileName>
+		<FilePath path ="../../extern/assets/models/vampire"></FilePath>
+		<Position x ="-110.0" y ="85.5" z ="-220.0"></Position>
+		<Rotation x ="0.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="1" y ="1" z ="1"></Scale>
+		<Color r ="1.0" g ="1.0" b ="1.0" a ="1.0"></Color>
+		<Feature speed ="6" hp ="400" xp ="2000"></Feature>
+	</Model>
+	<Model fName ="Vampire4" isLight ="1" isVisible ="1" isTwoSided ="1" isWireframe ="0"  isColor ="1" flipUVs ="0">
+		<FileName name ="Rumba Dancing.dae"></FileName>
+		<FilePath path ="../../extern/assets/models/vampire"></FilePath>
+		<Position x ="-125.0" y ="85.5" z ="-210.0"></Position>
+		<Rotation x ="0.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="1" y ="1" z ="1"></Scale>
+		<Color r ="1.0" g ="1.0" b ="1.0" a ="1.0"></Color>
+		<Feature speed ="8" hp ="300" xp ="5000"></Feature>
+	</Model>
+	<Model fName ="Vampire5" isLight ="1" isVisible ="1" isTwoSided ="1" isWireframe ="0"  isColor ="1" flipUVs ="0">
+		<FileName name ="Rumba Dancing.dae"></FileName>
+		<FilePath path ="../../extern/assets/models/vampire"></FilePath>
+		<Position x ="-120.0" y ="85.5" z ="-220.0"></Position>
+		<Rotation x ="0.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="1" y ="1" z ="1"></Scale>
+		<Color r ="1.0" g ="1.0" b ="1.0" a ="1.0"></Color>
+		<Feature speed ="7" hp ="200" xp ="1000"></Feature>
+	</Model>
+	<Model fName ="Paladin" isLight ="1" isVisible ="1" isTwoSided ="1" isWireframe ="0"  isColor ="0" flipUVs ="0">
+		<FileName name ="Paladin.dae"></FileName>
+		<FilePath path ="../../extern/assets/models/paladin"></FilePath>
+		<Position x ="-120.0" y ="85.5" z ="-200.0"></Position>
+		<Rotation x ="0.0" y ="0.0" z ="0.0"></Rotation>
+		<Scale x ="1" y ="1" z ="1"></Scale>
+		<Color r ="1.0" g ="1.0" b ="1.0" a ="1.0"></Color>
+		<Feature speed ="10" hp ="100" xp ="20000"></Feature>
+	</Model>
+</Models>
+{
+"IsVisible": 1,
+"FriendlyName": "Asteroid01",
+"FileName": "asteroid_industrial_xyz_n_rgba_uv.ply",
+"FilePath": "../../extern/assets/models/space_station",
+"HasLight_HasColor": [ 1, 0 ],
+"Scale": [ 1.0, 1.0, 1.0 ],
+"Position": [ 0.0, 0.0, 0.0 ],
+"Rotation": [ 0.0, 0.0, 0.0 ],
+"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+"IsTwoSided_IsWireframe": [ 0, 0 ]
+},
+{
+"IsVisible": 1,
+"FriendlyName": "Asteroid02",
+"FileName": "asteroid_main_xyz_n_rgba_uv.ply",
+"FilePath": "../../extern/assets/models/space_station",
+"HasLight_HasColor": [ 1, 0 ],
+"Scale": [ 1.0, 1.0, 1.0 ],
+"Position": [ 0.0, 0.0, 0.0 ],
+"Rotation": [ 0.0, 0.0, 0.0 ],
+"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+"IsTwoSided_IsWireframe": [ 0, 0 ]
+},
+{
+"IsVisible": 1,
+"FriendlyName": "Asteroid03",
+"FileName": "asteroid_other_xyz_n_rgba_uv.ply",
+"FilePath": "../../extern/assets/models/space_station",
+"HasLight_HasColor": [ 1, 0 ],
+"Scale": [ 1.0, 1.0, 1.0 ],
+"Position": [ 0.0, 0.0, 0.0 ],
+"Rotation": [ 0.0, 0.0, 0.0 ],
+"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+"IsTwoSided_IsWireframe": [ 0, 0 ]
+},
+{
+"IsVisible": 1,
+"FriendlyName": "Asteroid04",
+"FileName": "stuff_main_asteroid_xyz_n_rgba_uv.ply",
+"FilePath": "../../extern/assets/models/space_station",
+"HasLight_HasColor": [ 1, 0 ],
+"Scale": [ 1.0, 1.0, 1.0 ],
+"Position": [ 0.0, 0.0, 0.0 ],
+"Rotation": [ 0.0, 0.0, 0.0 ],
+"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+"IsTwoSided_IsWireframe": [ 0, 0 ]
+},

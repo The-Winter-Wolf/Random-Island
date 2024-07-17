@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{faab37a9-c81f-4e91-b817-0f65ba453c41}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>KaraiEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <OutDir>$(SolutionDir)..\build\$(Configuration)\</OutDir>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <OutDir>$(SolutionDir)..\build\$(Configuration)\</OutDir>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;FBXSDK_SHARED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\extern\include;$(SolutionDir)..\extern\include\fbxsdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;lua5.4.6-static.lib;assimp-vc143-mtd.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\extern\lib\$(Configuration);$(SolutionDir)..\extern\lib\$(Configuration)\fbx;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;FBXSDK_SHARED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\extern\include;$(SolutionDir)..\extern\include\fbxsdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;lua5.4.6-static.lib;assimp-vc143-mt.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\extern\lib\$(Configuration);$(SolutionDir)..\extern\lib\$(Configuration)\fbx;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="animations\cBone.cpp" />
+    <ClCompile Include="animations\cAnimation.cpp" />
+    <ClCompile Include="animations\cAnimator.cpp" />
+    <ClCompile Include="behaviour\cBoids.cpp" />
+    <ClCompile Include="animations\cAnimStates.cpp" />
+    <ClCompile Include="behaviour\cBehaviour.cpp" />
+    <ClCompile Include="behaviour\cBehaviourType.cpp" />
+    <ClCompile Include="world\gameplay\cCommands.cpp" />
+    <ClCompile Include="world\enemy\cSlime.cpp" />
+    <ClCompile Include="world\shadow\cShadow.cpp" />
+    <ClCompile Include="graphics\instancing\cInstance.cpp" />
+    <ClCompile Include="world\flora\cFlora.cpp" />
+    <ClCompile Include="world\skybox\cSkybox.cpp" />
+    <ClCompile Include="scenes\cScene01.cpp" />
+    <ClCompile Include="storage\sqlite\cSQLiteImp.cpp" />
+    <ClCompile Include="sqlite3.c" />
+    <ClCompile Include="storage\sqlite\cSQLite.cpp" />
+    <ClCompile Include="graphics\shaders\cShader.cpp" />
+    <ClCompile Include="system\lua\cLuaSounds.cpp" />
+    <ClCompile Include="system\threads\cThreadAnimations.cpp" />
+    <ClCompile Include="world\enemy\cEnemyBuilder.cpp" />
+    <ClCompile Include="world\enemy\cVampire.cpp" />
+    <ClCompile Include="world\enemy\cWarrok.cpp" />
+    <ClCompile Include="world\player\cPlayer.cpp" />
+    <ClCompile Include="utils\cMaths.cpp" />
+    <ClCompile Include="utils\cMazeMaker.cpp" />
+    <ClCompile Include="world\terrain\cTerrain.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="engine\cPoolManager.cpp" />
+    <ClCompile Include="scenes\cSceneManager.cpp" />
+    <ClCompile Include="graphics\FBO\cFBO.cpp" />
+    <ClCompile Include="system\window\cConsoleLogs.cpp" />
+    <ClCompile Include="storage\cConfigData.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="storage\cJsonReaderWriter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="utils\cAssimpHelper.cpp" />
+    <ClCompile Include="physics\physics_basic\cIntersections.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="system\time\cTimer.cpp" />
+    <ClCompile Include="physics\physics_body\cSoftBody.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="engine\cEngine.cpp" />
+    <ClCompile Include="commands\cCommandManager.cpp" />
+    <ClCompile Include="commands\cCommands_Curve.cpp" />
+    <ClCompile Include="commands\cCommands_Follow.cpp" />
+    <ClCompile Include="commands\cCommands_Group.cpp" />
+    <ClCompile Include="commands\cCommands_Move.cpp" />
+    <ClCompile Include="commands\cCommands_Orient.cpp" />
+    <ClCompile Include="commands\cCommands_Rotate.cpp" />
+    <ClCompile Include="commands\cCommands_Special.cpp" />
+    <ClCompile Include="commands\cCommands_Trigger.cpp" />
+    <ClCompile Include="commands\cGroupManager.cpp" />
+    <ClCompile Include="global\global.cpp" />
+    <ClCompile Include="objects\audio\cAudioInstaller.cpp" />
+    <ClCompile Include="objects\audio\cAudioManager.cpp" />
+    <ClCompile Include="system\lua\cLuaBrain.cpp" />
+    <ClCompile Include="system\lua\cLuaCommands.cpp" />
+    <ClCompile Include="utils\cRandomUtils.cpp" />
+    <ClCompile Include="debugs\cDebugRenderer.cpp" />
+    <ClCompile Include="debugs\cLightMoveMode.cpp" />
+    <ClCompile Include="debugs\cObjectMoveMode.cpp" />
+    <ClCompile Include="engine\cRenderManager.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="objects\camera\cCamera.cpp" />
+    <ClCompile Include="engine\cLoadManager.cpp" />
+    <ClCompile Include="objects\light\cLightHelper.cpp" />
+    <ClCompile Include="objects\light\cLightManager.cpp" />
+    <ClCompile Include="objects\object_3D\cObject3D.cpp" />
+    <ClCompile Include="graphics\models\cModel.cpp" />
+    <ClCompile Include="graphics\textures\cTextureManager.cpp" />
+    <ClCompile Include="graphics\models\cModelManager.cpp" />
+    <ClCompile Include="graphics\shaders\cShaderManager.cpp" />
+    <ClCompile Include="engine\cInputManager.cpp" />
+    <ClCompile Include="objects\effects\cParticleManager.cpp" />
+    <ClCompile Include="physics\physics_world\cAABB.cpp" />
+    <ClCompile Include="physics\physics_world\cAABBsWorld.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="physics\physics_basic\cBasicTests.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="physics\cPhysicsManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="physics\physics_body\cPhysicsBody.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="system\time\cTime.cpp" />
+    <ClCompile Include="utils\cQuaternionUtils.cpp" />
+    <ClCompile Include="theMain.cpp" />
+    <ClCompile Include="storage\cConfigurator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="storage\cXmlReaderWriter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animations\cBone.h" />
+    <ClInclude Include="animations\cAnimation.h" />
+    <ClInclude Include="animations\cAnimator.h" />
+    <ClInclude Include="behaviour\cBoids.h" />
+    <ClInclude Include="animations\cAnimStates.h" />
+    <ClInclude Include="behaviour\cBehaviour.h" />
+    <ClInclude Include="behaviour\cBehaviourType.h" />
+    <ClInclude Include="world\gameplay\cCommands.h" />
+    <ClInclude Include="world\enemy\cSlime.h" />
+    <ClInclude Include="world\enemy\iEnemy.h" />
+    <ClInclude Include="world\shadow\cShadow.h" />
+    <ClInclude Include="graphics\instancing\cInstance.h" />
+    <ClInclude Include="world\flora\cFlora.h" />
+    <ClInclude Include="world\skybox\cSkybox.h" />
+    <ClInclude Include="scenes\cScene01.h" />
+    <ClInclude Include="storage\sqlite\cSQLiteImp.h" />
+    <ClInclude Include="storage\sqlite\cSQLite.h" />
+    <ClInclude Include="graphics\shaders\cShader.h" />
+    <ClInclude Include="system\threads\cThreadAnimations.h" />
+    <ClInclude Include="world\enemy\cEnemyBuilder.h" />
+    <ClInclude Include="world\enemy\cVampire.h" />
+    <ClInclude Include="world\enemy\cWarrok.h" />
+    <ClInclude Include="world\player\cPlayer.h" />
+    <ClInclude Include="utils\cMaths.h" />
+    <ClInclude Include="utils\cMazeMaker.h" />
+    <ClInclude Include="world\terrain\cTerrain.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="engine\cPoolManager.h" />
+    <ClInclude Include="scenes\cSceneManager.h" />
+    <ClInclude Include="graphics\FBO\cFBO.h" />
+    <ClInclude Include="system\window\cConsoleLogs.h" />
+    <ClInclude Include="storage\cConfigData.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="storage\cJsonReaderWriter.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="utils\cAssimpHelper.h" />
+    <ClInclude Include="physics\physics_basic\cIntersections.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="system\time\cTimer.h" />
+    <ClInclude Include="physics\physics_body\cSoftBody.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="engine\cEngine.h" />
+    <ClInclude Include="commands\cCommandManager.h" />
+    <ClInclude Include="commands\cCommands_Curve.h" />
+    <ClInclude Include="commands\cCommands_Follow.h" />
+    <ClInclude Include="commands\cCommands_Group.h" />
+    <ClInclude Include="commands\cCommands_Move.h" />
+    <ClInclude Include="commands\cCommands_Orient.h" />
+    <ClInclude Include="commands\cCommands_Rotate.h" />
+    <ClInclude Include="commands\cCommands_Special.h" />
+    <ClInclude Include="commands\cCommands_Trigger.h" />
+    <ClInclude Include="commands\cGroupManager.h" />
+    <ClInclude Include="commands\iCommands.h" />
+    <ClInclude Include="engine\cRenderManager.h" />
+    <ClInclude Include="global\common.h" />
+    <ClInclude Include="objects\audio\cAudioInstaller.h" />
+    <ClInclude Include="objects\audio\cAudioManager.h" />
+    <ClInclude Include="engine\cInputManager.h" />
+    <ClInclude Include="system\lua\cLuaBrain.h" />
+    <ClInclude Include="utils\cRandomUtils.h" />
+    <ClInclude Include="debugs\cDebugRenderer.h" />
+    <ClInclude Include="debugs\cLightMoveMode.h" />
+    <ClInclude Include="debugs\cObjectMoveMode.h" />
+    <ClInclude Include="global\global.h" />
+    <ClInclude Include="objects\camera\cCamera.h" />
+    <ClInclude Include="engine\cLoadManager.h" />
+    <ClInclude Include="objects\light\cLightHelper.h" />
+    <ClInclude Include="objects\light\cLightManager.h" />
+    <ClInclude Include="objects\object_3D\cObject3D.h" />
+    <ClInclude Include="graphics\models\cModel.h" />
+    <ClInclude Include="graphics\textures\cTextureManager.h" />
+    <ClInclude Include="graphics\models\cModelManager.h" />
+    <ClInclude Include="graphics\shaders\cShaderManager.h" />
+    <ClInclude Include="objects\effects\cParticleManager.h" />
+    <ClInclude Include="physics\physics_world\cAABB.h" />
+    <ClInclude Include="physics\physics_world\cAABBsWorld.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="physics\cPhysicsManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="physics\physics_body\cPhysicsBody.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="system\time\cTime.h" />
+    <ClInclude Include="utils\cQuaternionUtils.h" />
+    <ClInclude Include="storage\cXmlReaderWriter.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="storage\cConfigurator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!--<Target Name="PostBuild" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" AfterTargets="PostBuildEvent">
+		<Exec Command="call ..\..\extern\convert\conv.bat" />
+	</Target>-->
+</Project>

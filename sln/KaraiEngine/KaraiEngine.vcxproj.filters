@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="physics">
+      <UniqueIdentifier>{5b55af3a-96a6-4303-83fe-718973b08afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{9683a71a-d162-442a-bc2f-d4260ab51300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\shaders">
+      <UniqueIdentifier>{259c8837-5282-4da7-a1d4-a2fb0d85f5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\shaders\shaders">
+      <UniqueIdentifier>{c38c5f13-6225-419e-a6fd-53fb34fe99fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\models">
+      <UniqueIdentifier>{01d67596-ebe7-4daa-a748-6d5f0a30a8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_global">
+      <UniqueIdentifier>{143e5d91-11fb-4502-af4c-ae13c61f63ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugs">
+      <UniqueIdentifier>{74a0cc48-2171-4531-887b-146a2b7f2293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{3ac89ff4-31ea-42a0-9f71-162bc1a7e6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commands">
+      <UniqueIdentifier>{a1fd06c2-bc2b-44d3-85a5-bdabda6381d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\time">
+      <UniqueIdentifier>{47ca1929-09a2-4e15-b334-f8122c823e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\lua">
+      <UniqueIdentifier>{f37667e2-e2ba-45e2-b190-95323d9cbeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\utils">
+      <UniqueIdentifier>{c7ad5d97-9285-4d5d-a0d9-29a04cc5a05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenes">
+      <UniqueIdentifier>{3b8bfef9-ed05-46b7-b656-cf9e78a838fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{185df6b0-b6ca-417b-9412-86dd960693e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\effects">
+      <UniqueIdentifier>{56422ad2-b887-45ea-a04a-5b52867a81f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\object_3D">
+      <UniqueIdentifier>{c6079a38-6d12-4db1-8fcc-f32b1bb9b9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\audio">
+      <UniqueIdentifier>{09adf2d6-c98e-4763-9e04-d91c7aa3ed7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\camera">
+      <UniqueIdentifier>{719e9e5d-f085-456d-8ff3-d47618aaede0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\light">
+      <UniqueIdentifier>{98381d53-9e58-43fc-a634-99a5a36c2248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="storage">
+      <UniqueIdentifier>{a1881657-effa-42c0-9239-9fa46914e8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\input">
+      <UniqueIdentifier>{3b90aab3-276f-4315-a986-059c7517983b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{a3ed1bde-5e52-4980-8fa6-99fafd09bc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\textures">
+      <UniqueIdentifier>{0a7751b2-b3a3-4b4e-adf4-69c17d99f967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animations">
+      <UniqueIdentifier>{e8576462-1975-42d5-8512-3e6170ad8e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_configs">
+      <UniqueIdentifier>{5a2e9e86-8a05-4b15-9260-102334634a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_configs\json">
+      <UniqueIdentifier>{24cbaa16-7736-49b3-8beb-272803eb3389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_configs\xml">
+      <UniqueIdentifier>{8549aa69-ec4d-4f18-a3ce-cf8d261bf7e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics\physics_basic">
+      <UniqueIdentifier>{1a5f0d62-cd84-4eeb-9d30-476be191e87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics\physics_body">
+      <UniqueIdentifier>{e8a919a6-2245-44fc-8a9b-f442ba6a4857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics\physics_scene">
+      <UniqueIdentifier>{9a7878a1-2887-4548-ae55-b8209e63908c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="behaviour">
+      <UniqueIdentifier>{532bae4f-f0e4-4bd5-b873-e27d4cd69acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="system\window">
+      <UniqueIdentifier>{28d1e4cd-38c2-4b72-b5ae-b1f104ea0d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\FBO">
+      <UniqueIdentifier>{5986d2aa-be79-40bd-bf9f-5decbf5f83db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\world">
+      <UniqueIdentifier>{cc8a537b-6852-41b5-a02d-fa6bb0d41f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\world\skybox">
+      <UniqueIdentifier>{266c86a8-495f-4c4c-bbe6-57e6d059aab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\world\terrain">
+      <UniqueIdentifier>{8538d4bb-001f-4fe4-98e4-20f49f2fecf0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="theMain.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\camera\cCamera.cpp">
+      <Filter>objects\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\light\cLightHelper.cpp">
+      <Filter>objects\light</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\light\cLightManager.cpp">
+      <Filter>objects\light</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\models\cModel.cpp">
+      <Filter>graphics\models</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\models\cModelManager.cpp">
+      <Filter>graphics\models</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\cXmlReaderWriter.cpp">
+      <Filter>storage</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\cPhysicsManager.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\shaders\cShaderManager.cpp">
+      <Filter>graphics\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="debugs\cDebugRenderer.cpp">
+      <Filter>debugs</Filter>
+    </ClCompile>
+    <ClCompile Include="debugs\cLightMoveMode.cpp">
+      <Filter>debugs</Filter>
+    </ClCompile>
+    <ClCompile Include="debugs\cObjectMoveMode.cpp">
+      <Filter>debugs</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\cConfigurator.cpp">
+      <Filter>storage</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\audio\cAudioInstaller.cpp">
+      <Filter>objects\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\audio\cAudioManager.cpp">
+      <Filter>objects\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="system\time\cTime.cpp">
+      <Filter>system\time</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\cQuaternionUtils.cpp">
+      <Filter>system\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cCommandManager.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cCommands_Curve.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cCommands_Follow.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cCommands_Group.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cCommands_Move.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cCommands_Orient.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cCommands_Rotate.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cCommands_Special.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cCommands_Trigger.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\cGroupManager.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+    <ClCompile Include="system\lua\cLuaBrain.cpp">
+      <Filter>system\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="system\lua\cLuaCommands.cpp">
+      <Filter>system\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\effects\cParticleManager.cpp">
+      <Filter>objects\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\object_3D\cObject3D.cpp">
+      <Filter>objects\object_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\cRandomUtils.cpp">
+      <Filter>system\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\cRenderManager.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\textures\cTextureManager.cpp">
+      <Filter>graphics\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="animations\cAnimation.cpp">
+      <Filter>animations</Filter>
+    </ClCompile>
+    <ClCompile Include="animations\cAnimator.cpp">
+      <Filter>animations</Filter>
+    </ClCompile>
+    <ClCompile Include="system\time\cTimer.cpp">
+      <Filter>system\time</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\cJsonReaderWriter.cpp">
+      <Filter>storage</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\cAssimpHelper.cpp">
+      <Filter>system\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\cLoadManager.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\cConfigData.cpp">
+      <Filter>storage</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\cEngine.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\cInputManager.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="global\global.cpp">
+      <Filter>_global</Filter>
+    </ClCompile>
+    <ClCompile Include="animations\cBone.cpp">
+      <Filter>animations</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\physics_basic\cBasicTests.cpp">
+      <Filter>physics\physics_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\physics_basic\cIntersections.cpp">
+      <Filter>physics\physics_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\physics_body\cSoftBody.cpp">
+      <Filter>physics\physics_body</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\physics_body\cPhysicsBody.cpp">
+      <Filter>physics\physics_body</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\physics_world\cAABB.cpp">
+      <Filter>physics\physics_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\physics_world\cAABBsWorld.cpp">
+      <Filter>physics\physics_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\cSceneManager.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="system\window\cConsoleLogs.cpp">
+      <Filter>system\window</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\cMazeMaker.cpp">
+      <Filter>system\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\cPoolManager.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\FBO\cFBO.cpp">
+      <Filter>graphics\FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="world\terrain\cTerrain.cpp">
+      <Filter>objects\world\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\cMaths.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="world\player\cPlayer.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="world\enemy\cWarrok.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="world\enemy\cVampire.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="world\enemy\cEnemyBuilder.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\threads\cThreadAnimations.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\shaders\cShader.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\sqlite\cSQLite.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\sqlite\cSQLiteImp.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\lua\cLuaSounds.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="behaviour\cBoids.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\cScene01.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="world\skybox\cSkybox.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="world\flora\cFlora.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\instancing\cInstance.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="world\shadow\cShadow.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="animations\cAnimStates.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="world\enemy\cSlime.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="behaviour\cBehaviour.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="behaviour\cBehaviourType.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+    <ClCompile Include="world\gameplay\cCommands.cpp">
+      <Filter>_source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="objects\camera\cCamera.h">
+      <Filter>objects\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\light\cLightHelper.h">
+      <Filter>objects\light</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\light\cLightManager.h">
+      <Filter>objects\light</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\models\cModel.h">
+      <Filter>graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\models\cModelManager.h">
+      <Filter>graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\cXmlReaderWriter.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\cConfigurator.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\cPhysicsManager.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="global\global.h">
+      <Filter>_global</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\shaders\cShaderManager.h">
+      <Filter>graphics\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="debugs\cDebugRenderer.h">
+      <Filter>debugs</Filter>
+    </ClInclude>
+    <ClInclude Include="debugs\cLightMoveMode.h">
+      <Filter>debugs</Filter>
+    </ClInclude>
+    <ClInclude Include="debugs\cObjectMoveMode.h">
+      <Filter>debugs</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\audio\cAudioInstaller.h">
+      <Filter>objects\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\audio\cAudioManager.h">
+      <Filter>objects\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="system\time\cTime.h">
+      <Filter>system\time</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\cQuaternionUtils.h">
+      <Filter>system\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cCommandManager.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cCommands_Curve.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cCommands_Follow.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cCommands_Group.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cCommands_Move.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cCommands_Orient.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cCommands_Rotate.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cCommands_Special.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cCommands_Trigger.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\cGroupManager.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="commands\iCommands.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="system\lua\cLuaBrain.h">
+      <Filter>system\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\effects\cParticleManager.h">
+      <Filter>objects\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\object_3D\cObject3D.h">
+      <Filter>objects\object_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\cRandomUtils.h">
+      <Filter>system\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\cRenderManager.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\textures\cTextureManager.h">
+      <Filter>graphics\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="animations\cAnimation.h">
+      <Filter>animations</Filter>
+    </ClInclude>
+    <ClInclude Include="animations\cAnimator.h">
+      <Filter>animations</Filter>
+    </ClInclude>
+    <ClInclude Include="system\time\cTimer.h">
+      <Filter>system\time</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\cJsonReaderWriter.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\cAssimpHelper.h">
+      <Filter>system\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\cConfigData.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\cLoadManager.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\cEngine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\cInputManager.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="global\common.h">
+      <Filter>_global</Filter>
+    </ClInclude>
+    <ClInclude Include="animations\cBone.h">
+      <Filter>animations</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\physics_basic\cIntersections.h">
+      <Filter>physics\physics_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\physics_body\cPhysicsBody.h">
+      <Filter>physics\physics_body</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\physics_body\cSoftBody.h">
+      <Filter>physics\physics_body</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\physics_world\cAABB.h">
+      <Filter>physics\physics_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\physics_world\cAABBsWorld.h">
+      <Filter>physics\physics_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\cSceneManager.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="system\window\cConsoleLogs.h">
+      <Filter>system\window</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\cMazeMaker.h">
+      <Filter>system\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\cPoolManager.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\FBO\cFBO.h">
+      <Filter>graphics\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="world\terrain\cTerrain.h">
+      <Filter>objects\world\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\cMaths.h" />
+    <ClInclude Include="world\player\cPlayer.h" />
+    <ClInclude Include="world\enemy\cWarrok.h" />
+    <ClInclude Include="world\enemy\cVampire.h" />
+    <ClInclude Include="world\enemy\cEnemyBuilder.h" />
+    <ClInclude Include="system\threads\cThreadAnimations.h" />
+    <ClInclude Include="graphics\shaders\cShader.h" />
+    <ClInclude Include="storage\sqlite\cSQLite.h" />
+    <ClInclude Include="storage\sqlite\cSQLiteImp.h" />
+    <ClInclude Include="behaviour\cBoids.h" />
+    <ClInclude Include="scenes\cScene01.h" />
+    <ClInclude Include="world\skybox\cSkybox.h" />
+    <ClInclude Include="world\flora\cFlora.h" />
+    <ClInclude Include="graphics\instancing\cInstance.h" />
+    <ClInclude Include="world\shadow\cShadow.h" />
+    <ClInclude Include="animations\cAnimStates.h" />
+    <ClInclude Include="world\enemy\cSlime.h" />
+    <ClInclude Include="behaviour\cBehaviour.h" />
+    <ClInclude Include="behaviour\cBehaviourType.h" />
+    <ClInclude Include="world\enemy\iEnemy.h" />
+    <ClInclude Include="world\gameplay\cCommands.h" />
+  </ItemGroup>
+</Project>

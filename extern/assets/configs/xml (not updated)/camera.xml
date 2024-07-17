@@ -1,0 +1,5 @@
+<Camera initialFoV="60.0">
+	<Position x ="20.0" y ="0.0" z ="20.0"></Position>
+	<Direction x ="0.0" y ="0.0" z ="0.0"></Direction>
+	<Angles horizon ="3.0" vertical ="-0.5"></Angles>
+</Camera> 
